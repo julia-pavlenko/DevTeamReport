@@ -1,0 +1,63 @@
+{
+  "uuid": "93753fc2-b8cf-4e65-9f45-350b29c86cdf-tr-0-1002",
+  "historyId": "DevTeamReportTest.LoginTests.NegativeLogin",
+  "fullName": "DevTeamReportTest.LoginTests.NegativeLogin",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-DVKSCCQ"
+    },
+    {
+      "name": "testClass",
+      "value": "DevTeamReportTest.LoginTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "NegativeLogin"
+    },
+    {
+      "name": "package",
+      "value": "DevTeamReportTest.LoginTests"
+    }
+  ],
+  "links": [],
+  "name": "NegativeLogin",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "NegativeLogin",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "95fa0467e88544cd93794972c0eea997-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1610719645153,
+      "stop": 1610719664056
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1610719645151,
+  "stop": 1610719664060
+}

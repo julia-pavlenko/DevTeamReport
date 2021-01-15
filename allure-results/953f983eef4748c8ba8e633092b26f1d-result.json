@@ -1,0 +1,63 @@
+{
+  "uuid": "be01d66c-c907-4563-8c96-9d80205789a8-tr-0-1001",
+  "historyId": "DevTeamReportTest.LoginTests.PositiveLogin",
+  "fullName": "DevTeamReportTest.LoginTests.PositiveLogin",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-DVKSCCQ"
+    },
+    {
+      "name": "testClass",
+      "value": "DevTeamReportTest.LoginTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "PositiveLogin"
+    },
+    {
+      "name": "package",
+      "value": "DevTeamReportTest.LoginTests"
+    }
+  ],
+  "links": [],
+  "name": "PositiveLogin",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "PositiveLogin",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "df041f82d2e54f82b1215bfd5177b612-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1610719664113,
+      "stop": 1610719671567
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1610719664113,
+  "stop": 1610719671567
+}
