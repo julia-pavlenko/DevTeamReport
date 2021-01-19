@@ -62,6 +62,20 @@ namespace DevTeamReportTest
             Assert.IsTrue(loginPage.OnLoginPage(), "User is not on Login page");
         }
 
+        [Test]
+        public void NegativeLoginEmptyLogin()
+        {
+            driver.Url = Const.AppUrl;
+            LoginPage loginPage = new LoginPage(driver);
+
+            loginPage.EnterEmail("");
+            loginPage.EnterPassword("youcandoit");
+            loginPage.ClickLogin();
+            loginPage.WaitForLogin();
+
+            Assert.IsTrue(loginPage.OnLoginPage(), "User is not on Login page");
+        }
+
         [TearDown]
         public void closeBrowser()
         {

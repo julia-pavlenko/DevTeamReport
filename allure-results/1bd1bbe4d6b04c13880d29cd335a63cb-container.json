@@ -1,0 +1,44 @@
+{
+  "uuid": "e98f6187-c2f5-422d-abb1-715f5686a110-tc-1-1000",
+  "name": "DevTeamReportTest.LoginTests.PositiveLogin",
+  "children": [
+    "859f45d0-e347-4d3c-a621-b74b2ad41ead-tr-1-1001"
+  ],
+  "befores": [
+    {
+      "name": "startBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1611058163609,
+      "stop": 1611058163609
+    }
+  ],
+  "afters": [
+    {
+      "name": "closeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1611058163609,
+      "stop": 1611058163609
+    }
+  ],
+  "links": [],
+  "start": 1611058133151,
+  "stop": 1611058163613
+}
