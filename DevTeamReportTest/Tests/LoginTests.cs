@@ -4,6 +4,7 @@ using NUnit.Allure.Core;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using System;
 
 namespace DevTeamReportTest
 {
@@ -15,7 +16,10 @@ namespace DevTeamReportTest
         [SetUp]
         public void startBrowser()
         {
-            driver = new ChromeDriver("C:\\Users\\jipav\\source\\drivers");
+            ChromeOptions options = new ChromeOptions();
+            options.AddArgument("no-sandbox");
+
+            driver = new ChromeDriver("C:\\Users\\jipav\\source\\drivers", options, TimeSpan.FromMinutes(3));
         }
 
         [Test]

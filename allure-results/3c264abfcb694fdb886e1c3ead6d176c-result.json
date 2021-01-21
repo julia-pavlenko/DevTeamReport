@@ -1,0 +1,68 @@
+{
+  "uuid": "4bacd5ba-2c84-4641-8a96-f544b5fcabe1-tr-1-1002",
+  "historyId": "DevTeamReportTest.LoginTests.NegativeLogin",
+  "fullName": "DevTeamReportTest.LoginTests.NegativeLogin",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-DVKSCCQ"
+    },
+    {
+      "name": "testClass",
+      "value": "DevTeamReportTest.LoginTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "NegativeLogin"
+    },
+    {
+      "name": "package",
+      "value": "DevTeamReportTest.LoginTests"
+    }
+  ],
+  "links": [],
+  "name": "NegativeLogin",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverException : The HTTP request to the remote WebDriver server for URL http://localhost:52243/session timed out after 60 seconds.\r\n  ----> System.Net.WebException : Запрос был прерван: Время ожидания операции истекло.\r\nTearDown : System.NullReferenceException : Ссылка на объект не указывает на экземпляр объекта.",
+    "trace": "   в OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   в OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)\r\n   в OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)\r\n   в OpenQA.Selenium.Chrome.ChromeDriver..ctor(String chromeDriverDirectory, ChromeOptions options)\r\n   в DevTeamReportTest.LoginTests.startBrowser() в C:\\Users\\jipav\\source\\repos\\DevTeamReportTest\\DevTeamReportTest\\Tests\\LoginTests.cs:строка 18\r\n--WebException\r\n   в System.Net.HttpWebRequest.GetResponse()\r\n   в OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n--TearDown\r\n   в DevTeamReportTest.LoginTests.closeBrowser() в C:\\Users\\jipav\\source\\repos\\DevTeamReportTest\\DevTeamReportTest\\Tests\\LoginTests.cs:строка 82"
+  },
+  "stage": "finished",
+  "description": "\nstartBrowser SetUp method failed\n\ncloseBrowser TearDown method failed\n",
+  "steps": [
+    {
+      "name": "NegativeLogin skipped because of startBrowser failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : The HTTP request to the remote WebDriver server for URL http://localhost:52243/session timed out after 60 seconds.\r\n  ----> System.Net.WebException : Запрос был прерван: Время ожидания операции истекло.\r\nTearDown : System.NullReferenceException : Ссылка на объект не указывает на экземпляр объекта.",
+        "trace": "   в OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   в OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)\r\n   в OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)\r\n   в OpenQA.Selenium.Chrome.ChromeDriver..ctor(String chromeDriverDirectory, ChromeOptions options)\r\n   в DevTeamReportTest.LoginTests.startBrowser() в C:\\Users\\jipav\\source\\repos\\DevTeamReportTest\\DevTeamReportTest\\Tests\\LoginTests.cs:строка 18\r\n--WebException\r\n   в System.Net.HttpWebRequest.GetResponse()\r\n   в OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n--TearDown\r\n   в DevTeamReportTest.LoginTests.closeBrowser() в C:\\Users\\jipav\\source\\repos\\DevTeamReportTest\\DevTeamReportTest\\Tests\\LoginTests.cs:строка 82"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "70645597f03c4c43aafcb5b5be3050ed-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1611058452848,
+      "stop": 1611058513358
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1611058452846,
+  "stop": 1611058513372
+}

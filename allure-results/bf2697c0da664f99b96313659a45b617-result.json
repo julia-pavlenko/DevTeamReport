@@ -1,0 +1,67 @@
+{
+  "uuid": "c0522bc0-3b88-4765-a552-429bd63435a9-tr-1-1003",
+  "historyId": "DevTeamReportTest.LoginTests.NegativeLoginIncorrectPass",
+  "fullName": "DevTeamReportTest.LoginTests.NegativeLoginIncorrectPass",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-DVKSCCQ"
+    },
+    {
+      "name": "testClass",
+      "value": "DevTeamReportTest.LoginTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "NegativeLoginIncorrectPass"
+    },
+    {
+      "name": "package",
+      "value": "DevTeamReportTest.LoginTests"
+    }
+  ],
+  "links": [],
+  "name": "NegativeLoginIncorrectPass",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverException : The HTTP request to the remote WebDriver server for URL http://localhost:59492/session/ee83f1e54341264c8f7a3d4f5fe3678b/url timed out after 60 seconds.\r\n  ----> System.Net.WebException : Запрос был прерван: Время ожидания операции истекло.",
+    "trace": "   в OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   в OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   в DevTeamReportTest.LoginTests.NegativeLoginIncorrectPass() в C:\\Users\\jipav\\source\\repos\\DevTeamReportTest\\DevTeamReportTest\\Tests\\LoginTests.cs:строка 54\r\n--WebException\r\n   в System.Net.HttpWebRequest.GetResponse()\r\n   в OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "NegativeLoginIncorrectPass",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : The HTTP request to the remote WebDriver server for URL http://localhost:59492/session/ee83f1e54341264c8f7a3d4f5fe3678b/url timed out after 60 seconds.\r\n  ----> System.Net.WebException : Запрос был прерван: Время ожидания операции истекло.",
+        "trace": "   в OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   в OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   в DevTeamReportTest.LoginTests.NegativeLoginIncorrectPass() в C:\\Users\\jipav\\source\\repos\\DevTeamReportTest\\DevTeamReportTest\\Tests\\LoginTests.cs:строка 54\r\n--WebException\r\n   в System.Net.HttpWebRequest.GetResponse()\r\n   в OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "4e8e053192a44645b191c0528fcdf01f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1611231352259,
+      "stop": 1611231416639
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1611231352259,
+  "stop": 1611231416639
+}
